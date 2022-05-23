@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    height: auto;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+header {
+    background-color: grey;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 15px;
+    padding: 15px 0;
+}
