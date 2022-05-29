@@ -1,28 +1,37 @@
+:root {
+    --yellow: #FFCF4C;
+    --blue: #4C7CFF;
+    --black: #080C19;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
+    list-style: none;
 }
 
-.container {
-    height: auto;
-    width: 78%;
+.landing {
+    height: 100vh;
+    width: auto;
+    background-color: var(--black);
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
 }
 
-header {
-    background-color: grey;
+h1 {
+    border-bottom: 1px solid var(--yellow);
+    padding: 5px 0;
 }
 
-header ul {
+.social {
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
-    gap: 15px;
-    padding: 15px 0;
+    max-width: fit-content;
+    gap: 20px;
 }
